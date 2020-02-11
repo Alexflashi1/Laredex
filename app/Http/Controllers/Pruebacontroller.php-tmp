@@ -1,0 +1,12 @@
+<?php
+
+namespace aplicaciones/Http/Controllers;
+
+use aplicaciones/Http/Controllers/controller;
+
+class Pruebacontroller extends controller {
+	Public function prueba() {
+		Return 'estoy dentro de prueba';
+
+	}
+}
